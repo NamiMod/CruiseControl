@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml Comp8.twx Comp8.ncd -o Comp8.twr Comp8.pcf
+
+Design file:              Comp8.ncd
+Physical constraint file: Comp8.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |EQ             |   10.827|
+A<0>           |G              |   10.254|
+A<0>           |L              |   11.946|
+A<1>           |EQ             |   10.630|
+A<1>           |G              |   10.123|
+A<1>           |L              |   11.749|
+A<2>           |EQ             |   10.157|
+A<2>           |G              |    9.382|
+A<2>           |L              |   11.276|
+A<3>           |EQ             |    9.885|
+A<3>           |G              |    9.513|
+A<3>           |L              |   11.004|
+A<4>           |EQ             |    9.052|
+A<4>           |G              |    8.224|
+A<4>           |L              |   10.171|
+A<5>           |EQ             |    8.905|
+A<5>           |G              |    8.460|
+A<5>           |L              |   10.024|
+A<6>           |EQ             |    8.162|
+A<6>           |G              |    7.763|
+A<6>           |L              |    9.281|
+A<7>           |EQ             |    7.391|
+A<7>           |G              |    7.429|
+A<7>           |L              |    8.523|
+B<0>           |EQ             |   11.241|
+B<0>           |G              |   10.673|
+B<0>           |L              |   12.360|
+B<1>           |EQ             |   11.375|
+B<1>           |G              |   10.881|
+B<1>           |L              |   12.494|
+B<2>           |EQ             |   10.238|
+B<2>           |G              |    9.846|
+B<2>           |L              |   11.357|
+B<3>           |EQ             |   10.349|
+B<3>           |G              |    9.638|
+B<3>           |L              |   11.468|
+B<4>           |EQ             |    8.838|
+B<4>           |G              |    8.329|
+B<4>           |L              |    9.957|
+B<5>           |EQ             |    9.036|
+B<5>           |G              |    8.188|
+B<5>           |L              |   10.155|
+B<6>           |EQ             |    7.889|
+B<6>           |G              |    7.172|
+B<6>           |L              |    9.008|
+B<7>           |EQ             |    6.840|
+B<7>           |G              |    6.580|
+B<7>           |L              |    8.038|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 11 15:53:15 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 113 MB
+
+
+

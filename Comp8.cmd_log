@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Comp8.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Comp8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Comp8.ngc Comp8.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Comp8_map.ncd Comp8.ngd Comp8.pcf 
+par -w -intstyle ise -ol high -t 1 Comp8_map.ncd Comp8.ncd Comp8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Comp8.twx Comp8.ncd -o Comp8.twr Comp8.pcf 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Comp8.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Comp8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Comp8.ngc Comp8.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Comp8_map.ncd Comp8.ngd Comp8.pcf 
+par -w -intstyle ise -ol high -t 1 Comp8_map.ncd Comp8.ncd Comp8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Comp8.twx Comp8.ncd -o Comp8.twr Comp8.pcf 

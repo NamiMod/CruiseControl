@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.xst" -ofn "C:/Users/Home/Desktop/lab5/CruiseControl/Control.syr" 

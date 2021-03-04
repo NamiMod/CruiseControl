@@ -1,0 +1,8 @@
+verilog work "FA2.v"
+verilog work "Comp2.v"
+verilog work "FA8.v"
+verilog work "Comp8.v"
+verilog work "ALU.v"
+verilog work "Control.v"
+verilog work "Control_test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
